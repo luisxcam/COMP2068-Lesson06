@@ -72,9 +72,11 @@
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="Scripts\lib\easeljs-0.7.1.min.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
     <None Include="Scripts\_references.js" />
+    <Content Include="Scripts\main.js" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-2.1.1.min.map" />
   </ItemGroup>
@@ -86,7 +88,10 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\type.ts" />
+    <TypeScriptCompile Include="Scripts\typings\createjs-lib\createjs-lib.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\easeljs\easeljs.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\tweenjs\tweenjs.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
